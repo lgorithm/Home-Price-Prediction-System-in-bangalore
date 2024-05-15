@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "home-price-prediction-system-in-bangalore"
+version = "0.1.0"
+description = ""
+authors = ["Igorithm <amit1994biswas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
